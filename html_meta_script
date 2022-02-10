@@ -191,7 +191,7 @@ load_data <- function(dataPath){
 }
 
 
-print_signature2 <- function(name,role,
+print_signature_2 <- function(name,role,
                              department='Preventive Cardiology and Medical Prevention, Dept. of Cardiology',
                              institute='University Medical Center of the Johannes Gutenberg University Mainz',
                              email,file){
@@ -241,7 +241,7 @@ paste(trimws(capture.output(
 ,
 # End paste and input signature
 "</div><hr>"),filename)
-print_signature2(sigName,sigRole,email=sigEmail,file=mainname)
+print_signature_2(sigName,sigRole,email=sigEmail,file=mainname)
 }
 
 #=========================================#
